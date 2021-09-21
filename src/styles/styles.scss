@@ -1,0 +1,22 @@
+
+//Con esto modificamos las lineas de bootstrap
+
+$theme-colors: (
+  "primary":    #2c3e50,
+  "secondary":  #1d6042,
+  "success":    #198754,
+  "info":       #0dcaf0,
+  "warning":    #ffc107,
+  "danger":     #2c3e50,
+  "light":      #2c3e50,
+  "dark":       #2c3e50,
+);
+
+
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+
+.pointer{
+  cursor: pointer;
+}
